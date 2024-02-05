@@ -3,10 +3,10 @@ description: Update template from another site.
 
 url: https://esnt.github.io
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
-baseurl: temp-blog # Ex: /project-page
+baseurl: /temp-blog # Ex: /project-page
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
-image: https://unsplash.com/random
+header_image: /assets/img/touring.jpg
 
 # Header Option
 # header: large
