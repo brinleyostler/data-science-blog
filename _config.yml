@@ -1,11 +1,12 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS
+title: New 386 Template
+description: Update template from another site.
 
-url: https://long-haul.netlify.app
+url: https://esnt.github.io
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
-baseurl: # Ex: /project-page
+baseurl: temp-blog # Ex: /project-page
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
+image: https://unsplash.com/random
 
 # Header Option
 # header: large
@@ -23,19 +24,19 @@ navigation:
       url: /index.html
     - title: About
       url: /about
-    - title: Contact
-      url: /contact
+#    - title: Contact
+#      url: /contact
 
 social:
-    github: brianmaierjr
-    twitter: brianmaierjr
-    facebook: brianmaierjr
-    email: brimaidesigns@gmail.com
-    linkedin: brianmaierjr
-    youtube: RickAstleyYT
-    tumblr: i-am-a-fish
+    github: esnt
+    twitter: 
+    facebook: 
+    email: 
+    linkedin: 
+    youtube: 
+    tumblr: 
 
-google_analytics: "UA-58263416-1"
+# google_analytics: "UA-58263416-1"
 
-disqus:
-    shortname: brianmaierjr
+# disqus:
+#     shortname: brianmaierjr
