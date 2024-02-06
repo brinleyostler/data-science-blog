@@ -519,3 +519,22 @@ DARK THEME STYLING
 		border-top-color: lighten(black, 10%);
 	}
 }
+
+
+/***************
+CUSTOM STYLING
+***************/
+.descriptions {
+	text-align: center; // Centers the text
+	/* font-variant: small-caps; // Applies small caps */
+	font-size: smaller; // Makes the text slightly larger 
+	color: $primary-color; // Makes the text the primary color
+  }
+ 
+  .post-second-title {
+	text-align: center; // Centers the text
+	/* font-variant: small-caps; // Applies small caps */
+	font-size: larger; // Makes the text slightly larger
+	font-family: "Gill Sans Extrabold", sans-serif;
+	color: $secondary-color; // Makes the text the primary color
+  }

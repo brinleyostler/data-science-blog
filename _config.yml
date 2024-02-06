@@ -1,12 +1,32 @@
-title: New 386 Template
-description: Update template from another site.
+## You should change each of the following fields
+## to customize your blog
 
-url: https://esnt.github.io
-# Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
-baseurl: /temp-blog # Ex: /project-page
+title: Stat 386 Blog
+description: "This description of the blog will appear on the 'About' page." 
+author: Your name
+author_description: "This description of who you are will appear on the 'About' page." 
+
+url: https://esnt.github.io ## change this to https://yourusername.github.io
+baseurl: /another-stat386-template ## change this to the name of your blog repository
+header_image: /assets/img/headerimg.jpg ## change your header image if you want
+
+## Add your social media user names.  Github is required, the rest are optional
+social:
+    github:  ## required
+    twitter: 
+    facebook: 
+    email: 
+    linkedin: 
+    youtube: 
+    tumblr: 
+    website: 
+
+
+
+### Advanced Settings (don't change below unless you know what you are doing)
+
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
-header_image: /assets/img/touring.jpg
 
 # Header Option
 # header: large
@@ -24,19 +44,7 @@ navigation:
       url: /index.html
     - title: About
       url: /about
-#    - title: Contact
-#      url: /contact
 
-social:
-    github: esnt
-    twitter: 
-    facebook: 
-    email: 
-    linkedin: 
-    youtube: 
-    tumblr: 
 
-# google_analytics: "UA-58263416-1"
 
-# disqus:
-#     shortname: brianmaierjr
+

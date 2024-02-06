@@ -8,9 +8,15 @@ layout: default
       </div>
   {%- endif -%}
   <header>
-    <h1 class="postTitle">{{ page.title }}</h1>
+    <!-- <h1 class="postTitle">{{ page.title }}</h1> -->
+    <p class="descriptions">{{ page.description }}</p>
     <p class="meta">{{ page.date | date: '%B %d, %Y' }} | <span class="time">{{ page.content | number_of_words | divided_by:180 }}</span> Minute Read</p>
   </header>
+
+  <hr>
+
+  <h2 class="post-second-title"> {{page.title}} </h2>
+
 
   {{ content }}
 
@@ -19,7 +25,7 @@ layout: default
     {%- if page.previous.url -%}
       <a class="prev{% if page.previous.image %} image{% endif %}" href="{{ page.previous.url | relative_url }}"><span>&laquo;&nbsp;{{ page.previous.title }}</span>
       {%- if page.previous.image -%}
-        <img src="{{ '/assets/img/' |  append: page.previous.image | relative_url }}" alt="">
+        <img src="{{ page.previous.image | relative_url }}" alt="">
       {%- endif -%}
     </a>
     {%- endif -%}

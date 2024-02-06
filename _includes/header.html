@@ -1,7 +1,6 @@
  
- <div class="header {% if site.header == 'large' %}header--large{% endif %}" style="background-image: url('{{ page.image | default: site.header_image | absolute_url }}');">
+<div class="header {% if site.header == 'large' %}header--large{% endif %}" style="background-image: url('{% if page.image and page.display_image %}{{ site.header_image | absolute_url }}{% elsif page.image %}{{ page.image | absolute_url }}{% else %}{{ site.header_image | absolute_url }}{% endif %}');">
     <div class="container">
-        <h1 class="logo"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
         <nav class="nav-collapse">
             <ul class="noList">
                 {%- for link in site.navigation -%}{%- assign current = nil -%}{%- if page.url contains link.url or forloop.first and page.url == '/' or page.url == 'index.html' -%}{%- assign current = 'current' -%}{%- endif -%}
@@ -9,7 +8,12 @@
                     <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
                 </li>
                 {%- endfor -%}
+                <li> <a href="https://github.com/{{ site.social.github}}" target="_blank">GitHub</a></li>
             </ul>
         </nav>
+        <h1 class="logo"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
     </div>
 </div><!-- end .header -->
+
+
+
