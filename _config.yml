@@ -7,7 +7,7 @@ author: Your name
 author_description: "This description of who you are will appear on the 'About' page." 
 
 url: https://esnt.github.io ## change this to https://yourusername.github.io
-baseurl: /another-stat386-template ## change this to the name of your blog repository
+baseurl: /another-stat386-theme ## change this to the name of your blog repository
 header_image: /assets/img/headerimg.jpg ## change your header image if you want
 
 ## Add your social media user names.  Github is required, the rest are optional
