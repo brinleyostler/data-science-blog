@@ -24,17 +24,20 @@ These books are ranked based on how popular they are, not how highly rated they 
 
 <figure>
     <img src="{{site.url}}/{{site.baseurl}}/assets/img/book-ratings.png" alt=""> 
-    <figcaption>Distribution of book ratings</figcaption>
 </figure>
 
 It appears that the average rating of our most popular books is 3.87, and the ratings range from 2.4 to 4.7 (out of 5.0). Not bad, but there's more to look at. Are there discrepencies in the ratings between audiobooks and ebooks? Waitlist and available books? Is rank correlated with rating? 
 
 **AUDIOBOOK vs. EBOOK**
 
+<figure>
+    <img src="{{site.url}}/{{site.baseurl}}/assets/img/audio-e-boxplot.png" alt=""> 
+</figure>
+
 
 **WAITLIST vs. AVAILABLE**
 
 
-**Difference in Ratings for Book Rank**
+**DIFFERENCE in Ratings for Book Rank**
 
 
