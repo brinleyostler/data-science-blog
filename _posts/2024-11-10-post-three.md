@@ -18,9 +18,9 @@ These books are ranked based on how popular they are, not how highly rated they 
 
 #### SUMMARY STATISTICS
 
-|mean   |   median   |   mode   |   min   |   max|
-|-------|------------|----------|---------|------|
-| 3.87167   | 3.9   | 4.0   | 2.4   | 4.7 |
+| mean | median | mode | min | max|
+|------|--------|------|-----|----|
+| 3.87167 | 3.9 | 4.0 | 2.4 | 4.7 |
 
 **WAITLIST vs. AVAILABLE**
 
