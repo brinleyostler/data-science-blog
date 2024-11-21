@@ -34,15 +34,27 @@ It appears that the average rating of our most popular books is 3.87, and the ra
     <img src="{{site.url}}/{{site.baseurl}}/assets/img/audio-e-boxplot.png" alt=""> 
 </figure>
 
+The boxplots look very similar, but we can already see some *slight* differences. It appears that ebooks have a slightly higher average rating; however, ebooks also have more outliers on the lower end. 
+
 | format | mean | median | mode | min | max|
 |--------|------|--------|------|-----|----|
-| audiobook |3.85 | 3.9 | 4.0 | 2.8 | 4.7 | 
+| audiobook | 3.85 | 3.9 | 4.0 | 2.8 | 4.7 | 
 | ebook | 3.89 | 4.0 | 4.0 | 2.4 | 4.7 |
 
 
 **WAITLIST vs. AVAILABLE**
 
+*insert figure here*
+
+explanation
+
+| availability | mean | median | mode | min | max|
+|--------------|------|--------|------|-----|----|
+| waitlist | 3.88 | 3.9 | 4.0 | 2.4 | 4.7 |
+| available | 3.85 | 3.9 | 4.0 | 2.8 | 4.5 |
+
 
 **DIFFERENCE in Ratings for Book Rank**
 
+Are audiobooks and ebooks rated similarly at the same rankings? 
 
