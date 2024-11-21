@@ -34,6 +34,11 @@ It appears that the average rating of our most popular books is 3.87, and the ra
     <img src="{{site.url}}/{{site.baseurl}}/assets/img/audio-e-boxplot.png" alt=""> 
 </figure>
 
+| audiobook                       || ebook                           |
+| mean | median | mode | min | max|| mean | median | mode | min | max|
+|------|--------|------|-----|----||------|--------|------|-----|----|
+| 3.85 | 3.9 | 4.0 | 2.8 | 4.7 || 3.89 | 4.0 | 4.0 | 2.4 | 4.7 |
+
 
 **WAITLIST vs. AVAILABLE**
 
