@@ -67,6 +67,7 @@ With this question, I took each ebook's rating at rank 1, then rank 2, all throu
 It appears that while some rankings have large differences in rating, the differences seem to be consistent across rank. We can't see any obvious positive or negative trends. 
 
 Summary of rating differences:
+
 | mean | median | mode | min | max |
 |------|--------|------|-----|-----|
 | 0.0425 | 0.1 | 0.2 | -1.4 | 1.3 |
