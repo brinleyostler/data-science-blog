@@ -77,6 +77,34 @@ The correlation between rank and rating is very close to zero. This tells us tha
 
 ### 2) Do the most popular books have the longest wait time?
 
-Is wait time correlated to the most popular books? While it intuitively makes sense the the more popular a books is, the more people are reading it, leading to longer wait times. However, some books actually have a much higher number of copies than other books, meaning a lower average wait time.
+Is wait time correlated to the most popular books? While it intuitively makes sense the the more popular a book is, the more people want to read it, leading to longer wait times. However, some books actually have a much larger number of copies than other books, leading to a lower average wait time.
+
+Let's investigate:
+
+#### SUMMARY STATISTICS
+
+**Wait Weeks**
+
+| mean | median | mode | min | max |
+|------|--------|------|-----|-----|
+| 14.51 | 18.0 | 27.0 | 0.0 | 27.0 |
+
+This table demonstrates the summary statistics of the wait time in the numeric format. Let's inspect the raw scraped data before it was converted into a number.
+
+
+**Wait Time**
+
+Here are the value counts:
+
+| 6 months | No wait | 2 weeks | 3 weeks | 6 weeks | 4 weeks | Everything else |
+|----------|---------|---------|---------|---------|---------|-----------------|
+| 216 | 107 | 74 | 11 | 9 | 8 | 7 or fewer |
+
+
+#### Wait Time as Rank Increases
+
+
+
+
 
 Follow-up question: to help manage long wait times, does the library purchase a higher number of copies for the more popular books? (Is rank correlated to the number of copies?)
