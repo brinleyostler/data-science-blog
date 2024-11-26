@@ -64,6 +64,15 @@ Summary of rating differences:
 | 0.0425 | 0.1 | 0.2 | -1.4 | 1.3 |
 
 
+#### CORRELATION between Rank and Rating
+
+The remaining question about rank and rating: are they correlated? Do book ratings decrease for the less popular books and increase for the more popular ones?
+
+**Correlation: -0.063**
+
+The correlation between rank and rating is very close to zero. This tells us that there is not much of a relationship. There is a *slight* negative correlation, indicating that as the rank increases (descends on the list becoming less popular) rating decreases... *slightly*. The relationship is not strong whatsoever, so rank is not indicative of rating and vice versa.
+
+
 ### 2) Do the most popular books have the longest wait time?
 
 Is wait time correlated to the most popular books? While it intuitively makes sense the the more popular a books is, the more people are reading it, leading to longer wait times. However, some books actually have a much higher number of copies than other books, meaning a lower average wait time.
