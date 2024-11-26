@@ -28,7 +28,7 @@ These books are ranked based on how popular they are, not how highly rated they 
 
 It appears that the average rating of our most popular books is 3.87, and the ratings range from 2.4 to 4.7 (out of 5.0). Not bad, but there's more to look at. Are there discrepencies in the ratings between audiobooks and ebooks? Waitlist and available books? Is rank correlated with rating? 
 
-**AUDIOBOOK vs. EBOOK**
+#### AUDIOBOOK vs. EBOOK
 
 <figure>
     <img src="{{site.url}}/{{site.baseurl}}/assets/img/audio-e-boxplot.png" alt=""> 
@@ -42,7 +42,7 @@ The boxplots look very similar, but we can already see some *slight* differences
 | ebook | 3.89 | 4.0 | 4.0 | 2.4 | 4.7 |
 
 
-**WAITLIST vs. AVAILABLE**
+#### WAITLIST vs. AVAILABLE
 
 *insert figure here*
 
@@ -54,7 +54,13 @@ explanation
 | available | 3.85 | 3.9 | 4.0 | 2.8 | 4.5 |
 
 
-**DIFFERENCE in Ratings for Book Rank**
+#### DIFFERENCE in Ratings for Book Rank
 
 Are audiobooks and ebooks rated similarly at the same rankings? 
 
+
+### 2) Do the most popular books have the longest wait time?
+
+Is wait time correlated to the most popular books? While it intuitively makes sense the the more popular a books is, the more people are reading it, leading to longer wait times. However, some books actually have a much higher number of copies than other books, meaning a lower average wait time.
+
+Follow-up question: does the library purchase a higher number of copies for the more popular books? (Is rank correlated to the number of copies?)
