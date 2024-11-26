@@ -91,14 +91,21 @@ Let's investigate:
 
 This table demonstrates the summary statistics of the wait time in the numeric format. Let's inspect the raw scraped data before it was converted into a number.
 
-
 **Wait Time**
 
 Here are the value counts:
 
 | 6 months | No wait | 2 weeks | 3 weeks | 6 weeks | 4 weeks | Everything else |
 |----------|---------|---------|---------|---------|---------|-----------------|
-| 216 | 107 | 74 | 11 | 9 | 8 | 7 or fewer |
+| 216 | 107 | 74 | 11 | 9 | 8 | <7 counts |
+
+**Insights**
+
+The most common wait time is 6 months. But! We need to note that for the wait time, once it reaches 6 months, it stops counting any higher. So, in reality, a book's wait time could be much longer, but it will be recorded on the website as '6 months'. This could very likely be skewing the value counts. However, this *does* tell us that a vast majority of the books have a wait time of *at least* 6 months.
+
+The second most common wait time is no wait time at all.
+
+Following the two ends of the wait time spectrum, the most common wait time is 2 weeks. 
 
 
 #### Wait Time as Rank Increases
