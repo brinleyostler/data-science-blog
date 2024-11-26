@@ -58,9 +58,13 @@ explanation
 
 Are audiobooks and ebooks rated similarly at the same rankings? 
 
+With this question, I took each ebook's rating at rank 1, then rank 2, all through rank 240 and subtracted each audiobook's rating at rank 1, then rank 2, through rank 240. The plot below shows these differences. 
+
 <figure>
     <img src="{{site.url}}/{{site.baseurl}}/assets/img/rating-diff-plot.png" alt=""> 
 </figure>
+
+It appears that while some rankings have large differences in rating, the differences seem to be consistent across rank. We can't see any obvious positive or negative trends. 
 
 
 ### 2) Do the most popular books have the longest wait time?
