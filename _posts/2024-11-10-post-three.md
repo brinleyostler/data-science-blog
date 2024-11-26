@@ -125,6 +125,17 @@ From the image, it is difficult to tell a relationship, especially with the larg
     <img src="{{site.url}}/{{site.baseurl}}/assets/img/wait-rating.png" alt=""> 
 </figure>
 
+This plot seems similar to the one before. It's difficult to see any obvious trends in wait time as it relates to book ratings. Which, this may be due to the large number of '6 month' and 'No wait' books.
+
+
+#### Wait Time and Copies Increase
+
+One thing that seems to make intuitive sense is that the wait time decreases as the book's copies increase. The more copies available to readers, the fewer number of people would need to wait. Let's see:
+
+<figure>
+    <img src="{{site.url}}/{{site.baseurl}}/assets/img/wait-copies.png" alt=""> 
+</figure>
+
 
 #### Follow-up question:
 
