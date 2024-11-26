@@ -58,9 +58,13 @@ explanation
 
 Are audiobooks and ebooks rated similarly at the same rankings? 
 
+<figure>
+    <img src="{{site.url}}/{{site.baseurl}}/assets/img/rating-diff-plot.png" alt=""> 
+</figure>
+
 
 ### 2) Do the most popular books have the longest wait time?
 
 Is wait time correlated to the most popular books? While it intuitively makes sense the the more popular a books is, the more people are reading it, leading to longer wait times. However, some books actually have a much higher number of copies than other books, meaning a lower average wait time.
 
-Follow-up question: does the library purchase a higher number of copies for the more popular books? (Is rank correlated to the number of copies?)
+Follow-up question: to help manage long wait times, does the library purchase a higher number of copies for the more popular books? (Is rank correlated to the number of copies?)
