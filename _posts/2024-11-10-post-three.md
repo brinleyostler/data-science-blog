@@ -49,7 +49,7 @@ The boxplots look very similar, but we can already see some *slight* differences
 
 Are audiobooks and ebooks rated similarly at the same rankings? 
 
-With this question, I took each ebook's rating at rank 1, then rank 2, all through rank 240 and subtracted each audiobook's rating at rank 1, then rank 2, through rank 240. The plot below shows these differences. 
+With this question, I took each ebook's rating at rank 1, rank 2, through rank 240 and subtracted each audiobook's rating at rank 1, then rank 2, through rank 240 and took the absolute value. The plot below shows these differences. 
 
 <figure>
     <img src="{{site.url}}/{{site.baseurl}}/assets/img/rating-diff-plot.png" alt=""> 
@@ -61,7 +61,9 @@ Summary of rating differences:
 
 | mean | median | mode | min | max |
 |------|--------|------|-----|-----|
-| 0.0425 | 0.1 | 0.2 | -1.4 | 1.3 |
+| 0.4067 | 0.3 | 0.2 | 0.0 | 1.4 |
+
+There are differences, but on average they don't seem to be too major. An average difference of 0.4 is relatively small. Even a max difference of 1.4 shows that the ratings at each rank seem to be consistent.
 
 
 #### CORRELATION between Rank and Rating
