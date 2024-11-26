@@ -159,3 +159,18 @@ This may be due to the library trying to manage long wait times for popular book
 To investigate this data further, I would love to go back and scrape *all* the book data from the websites. I only scraped the top 240 books of each format. 
 - Would rating differences diverge or converge with more books?
 - Would our correlation between rank and rating change as we collected more data? 
+
+
+What should I investigate further about this dataset? Did I miss something in my EDA? Let me know in the comments!
+
+Thanks for reading!
+
+
+<script src="https://utteranc.es/client.js"
+repo="brinleyostler/data-science-blog"
+issue-term="pathname"
+label="💬"
+theme="boxy-light"
+crossorigin="anonymous"
+async>
+</script>
