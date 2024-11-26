@@ -128,7 +128,7 @@ From the image, it is difficult to tell a relationship, especially with the larg
 This plot seems similar to the one before. It's difficult to see any obvious trends in wait time as it relates to book ratings. Which, this may be due to the large number of '6 month' and 'No wait' books.
 
 
-#### Wait Time and Copies Increase
+#### Wait Time as Copies Increase
 
 One thing that seems to make intuitive sense is that the wait time decreases as the book's copies increase. The more copies available to readers, the fewer number of people would need to wait. Let's see:
 
@@ -136,14 +136,25 @@ One thing that seems to make intuitive sense is that the wait time decreases as 
     <img src="{{site.url}}/{{site.baseurl}}/assets/img/wait-copies.png" alt=""> 
 </figure>
 
+While there is not an obvious linear trend, we can see on the plot that the wait time seems to drop off around 25 copies. Any book that has more than 25 copies has a wait time of about 6 weeks or less.
 
-#### Follow-up question:
+**Correlation: -0.332**
 
-To help manage long wait times, does the library purchase a higher number of copies for the more popular books? (Is rank correlated to the number of copies?)
+The correlation between wait weeks and copies is relatively weak, but still tells us a little bit about the data. As the number of copies increases, on average the number of wait weeks decreases... *slightly*. Which is what we expected.
 
 
+### Follow-up: Rank vs. Copies
 
-#### Going Further
+This question got me thinking about which books have a larger number of copies. To help manage long wait times, does the library purchase a higher number of copies for the more popular books? In other words, is rank correlated to the number of copies?
+
+**Correlation: -0.222**
+
+Just like before, the correlation isn't all that strong, but it does tell us about the relationship between rank and copies. As rank decreases (the book is more popular), on average the number of copies increases... *slightly*.
+
+This may be due to the library trying to manage long wait times for popular books. However, they are restricted by copyrights and other licensing issues. They may not be allowed to have over a certain number of copies for a particular book. 
+
+
+### Going Further
 
 To investigate this data further, I would love to go back and scrape *all* the book data from the websites. I only scraped the top 240 books of each format. 
 - Would rating differences diverge or converge with more books?
