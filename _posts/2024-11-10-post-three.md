@@ -75,6 +75,8 @@ The remaining question about rank and rating: are they correlated? Do book ratin
 The correlation between rank and rating is very close to zero. This tells us that there is not much of a relationship. There is a *slight* negative correlation, indicating that as the rank increases (descends on the list becoming less popular) rating decreases... *slightly*. The relationship is not strong whatsoever, so rank is not indicative of rating and vice versa.
 
 
+
+
 ### 2) Do the most popular books have the longest wait time?
 
 Is wait time correlated to the most popular books? While it intuitively makes sense the the more popular a book is, the more people want to read it, leading to longer wait times. However, some books actually have a much larger number of copies than other books, leading to a lower average wait time.
@@ -110,8 +112,28 @@ Following the two ends of the wait time spectrum, the most common wait time is 2
 
 #### Wait Time as Rank Increases
 
+<figure>
+    <img src="{{site.url}}/{{site.baseurl}}/assets/img/wait-ranks.png" alt=""> 
+</figure>
+
+From the image, it is difficult to tell a relationship, especially with the large skew of data on the low end ('No wait') and on the high end ('6 months'). There also does not seem to be a clear difference between ebooks and audiobooks.
+
+
+#### Wait Time as Rating Increases
+
+<figure>
+    <img src="{{site.url}}/{{site.baseurl}}/assets/img/wait-rating.png" alt=""> 
+</figure>
+
+
+#### Follow-up question:
+
+To help manage long wait times, does the library purchase a higher number of copies for the more popular books? (Is rank correlated to the number of copies?)
 
 
 
+#### Going Further
 
-Follow-up question: to help manage long wait times, does the library purchase a higher number of copies for the more popular books? (Is rank correlated to the number of copies?)
+To investigate this data further, I would love to go back and scrape *all* the book data from the websites. I only scraped the top 240 books of each format. 
+- Would rating differences diverge or converge with more books?
+- Would our correlation between rank and rating change as we collected more data? 
