@@ -8,9 +8,11 @@ image: "/assets/img/AZ-pink-sky.jpeg"
 <p class="intro"><span class="dropcap">I</span> know the burning question that lingers in your mind is what Arizona's most popular books are, so I did the work for you. Let's get into it!</p>
 
 #### In case you missed it...
-Check out my [last post](https://brinleyostler.github.io/data-science-blog/blog/post-two/) and my GitHub respository [AZ-top-books]](https://github.com/brinleyostler/AZ-top-books) for code on how I collected this data!
+Check out my [last post](https://brinleyostler.github.io/data-science-blog/blog/post-two/) and my GitHub respository [AZ-top-books]](https://github.com/brinleyostler/AZ-top-books) for code on how I collected this data and created the summary graphics!
 
 ## Burning Questions
+
+In this post, I'll discuss two main questions about the dataset and introduce my Streamlit app to delve further into the EDA.
 
 ### 1) Are the most popular books even any good?
 
@@ -85,17 +87,13 @@ Let's investigate:
 
 #### SUMMARY STATISTICS
 
-**Wait Weeks**
+**Wait Weeks Summary**
 
 | mean | median | mode | min | max |
 |------|--------|------|-----|-----|
 | 14.51 | 18.0 | 27.0 | 0.0 | 27.0 |
 
-This table demonstrates the summary statistics of the wait time in the numeric format. Let's inspect the raw scraped data before it was converted into a number.
-
-**Wait Time**
-
-Here are the value counts:
+**Wait Time Value Counts**
 
 | 6 months | No wait | 2 weeks | 3 weeks | 6 weeks | 4 weeks | Everything else |
 |----------|---------|---------|---------|---------|---------|-----------------|
@@ -103,29 +101,9 @@ Here are the value counts:
 
 **Insights**
 
-The most common wait time is 6 months. But! We need to note that for the wait time, once it reaches 6 months, it stops counting any higher. So, in reality, a book's wait time could be much longer, but it will be recorded on the website as '6 months'. This could very likely be skewing the value counts. However, this *does* tell us that a vast majority of the books have a wait time of *at least* 6 months.
+The most common wait time is 6 months (27.0 weeks). But! We need to note that for the wait time, once it reaches 6 months, it stops counting any higher. So, in reality, a book's wait time could be much longer, but it will be recorded on the website as '6 months'. This could very likely be skewing the value counts. However, this *does* tell us that a vast majority of the books have a wait time of *at least* 6 months.
 
-The second most common wait time is no wait time at all.
-
-Following the two ends of the wait time spectrum, the most common wait time is 2 weeks. 
-
-
-#### Wait Time as Rank Increases
-
-<figure>
-    <img src="{{site.url}}/{{site.baseurl}}/assets/img/wait-ranks.png" alt=""> 
-</figure>
-
-From the image, it is difficult to tell a relationship, especially with the large skew of data on the low end ('No wait') and on the high end ('6 months'). There also does not seem to be a clear difference between ebooks and audiobooks.
-
-
-#### Wait Time as Rating Increases
-
-<figure>
-    <img src="{{site.url}}/{{site.baseurl}}/assets/img/wait-rating.png" alt=""> 
-</figure>
-
-This plot seems similar to the one before. It's difficult to see any obvious trends in wait time as it relates to book ratings. Which, this may be due to the large number of '6 month' and 'No wait' books.
+The second most common wait time is no wait time at all. Following those two extremes, the next most common wait times are 2 weeks and 3 weeks. This makes sense since the most common lengths a book goes on loan to a patron is 2 weeks and 3 weeks.
 
 
 #### Wait Time as Copies Increase
@@ -143,7 +121,7 @@ While there is not an obvious linear trend, we can see on the plot that the wait
 The correlation between wait weeks and copies is relatively weak, but still tells us a little bit about the data. As the number of copies increases, on average the number of wait weeks decreases... *slightly*. Which is what we expected.
 
 
-### Follow-up: Rank vs. Copies
+#### Follow-up: Rank vs. Copies
 
 This question got me thinking about which books have a larger number of copies. To help manage long wait times, does the library purchase a higher number of copies for the more popular books? In other words, is rank correlated to the number of copies?
 
@@ -152,6 +130,10 @@ This question got me thinking about which books have a larger number of copies. 
 Just like before, the correlation isn't all that strong, but it does tell us about the relationship between rank and copies. As rank decreases (the book is more popular), on average the number of copies increases... *slightly*.
 
 This may be due to the library trying to manage long wait times for popular books. However, they are restricted by copyrights and other licensing issues. They may not be allowed to have over a certain number of copies for a particular book. 
+
+
+### Streamlit App
+
 
 
 ### Going Further
