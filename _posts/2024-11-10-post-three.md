@@ -8,11 +8,11 @@ image: "/assets/img/AZ-pink-sky.jpeg"
 <p class="intro"><span class="dropcap">I</span> know the burning question that lingers in your mind is what Arizona's most popular books are, so I did the work for you. Let's get into it!</p>
 
 #### In case you missed it...
-Check out my [last post](https://brinleyostler.github.io/data-science-blog/blog/post-two/) and my GitHub respository [AZ-top-books](https://github.com/brinleyostler/AZ-top-books) for code on how I collected this data and created the summary graphics!
+Check out my [last post](https://brinleyostler.github.io/data-science-blog/blog/post-two/) and my GitHub respository [AZ-top-books](https://github.com/brinleyostler/AZ-top-books) for code on how I collected this data and created the summary graphics! In this post we'll delve deeper into my Exploratory Data Analysis and introduce my [app](https://az-top-books.streamlit.app/)!
 
 ## Burning Questions
 
-In this post, I'll discuss two main questions about the dataset and introduce my Streamlit app to delve further into the EDA.
+In this post, I'll discuss two main questions about the dataset and introduce my [Streamlit app](https://az-top-books.streamlit.app/) to delve further into the EDA.
 
 ### 1) Are the most popular books even any good?
 
