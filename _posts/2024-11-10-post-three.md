@@ -140,11 +140,11 @@ This may be due to the library trying to manage long wait times for popular book
 
 The purpose of my Streamlit app is to provide further exploration into my books dataset. The users will be able to interact with the dataset to generate unique plots and summary statistics, like entering a rank and returning the book's information for that rank. Users will be able to further explore book ratings, compare book formats, and find the top authors.
 
-You can find my Streamlit app [here](). Check it out!
+You can find my Streamlit app [here](https://az-top-books.streamlit.app/). Check it out!
 
 * * *
 
-What should I investigate further about this dataset? Did I miss something in my EDA? What else should I include in my Streamlit [app]()? Let me know in the comments!
+What should I investigate further about this dataset? Did I miss something in my EDA? What else should I include in my Streamlit [app](https://az-top-books.streamlit.app/)? Let me know in the comments!
 
 Thanks for reading!
 
