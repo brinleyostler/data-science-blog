@@ -142,12 +142,11 @@ The purpose of my Streamlit app is to provide further exploration into my books 
 
 You can find my Streamlit app [here](). Check it out!
 
-------------------------------------------
+* * *
 
 What should I investigate further about this dataset? Did I miss something in my EDA? What else should I include in my Streamlit [app]()? Let me know in the comments!
 
 Thanks for reading!
-
 
 <script src="https://utteranc.es/client.js"
 repo="brinleyostler/data-science-blog"
