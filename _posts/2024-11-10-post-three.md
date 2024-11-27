@@ -8,7 +8,7 @@ image: "/assets/img/AZ-pink-sky.jpeg"
 <p class="intro"><span class="dropcap">I</span> know the burning question that lingers in your mind is what Arizona's most popular books are, so I did the work for you. Let's get into it!</p>
 
 #### In case you missed it...
-Check out my [last post](https://brinleyostler.github.io/data-science-blog/blog/post-two/) and my GitHub respository [AZ-top-books]](https://github.com/brinleyostler/AZ-top-books) for code on how I collected this data and created the summary graphics!
+Check out my [last post](https://brinleyostler.github.io/data-science-blog/blog/post-two/) and my GitHub respository [AZ-top-books](https://github.com/brinleyostler/AZ-top-books) for code on how I collected this data and created the summary graphics!
 
 ## Burning Questions
 
