@@ -131,11 +131,6 @@ Just like before, the correlation isn't all that strong, but it does tell us abo
 
 This may be due to the library trying to manage long wait times for popular books. However, they are restricted by copyrights and other licensing issues. They may not be allowed to have over a certain number of copies for a particular book. 
 
-
-### Streamlit App
-
-
-
 ### Going Further
 
 To investigate this data further, I would love to go back and scrape *all* the book data from the websites. I only scraped the top 240 books of each format. 
@@ -143,7 +138,17 @@ To investigate this data further, I would love to go back and scrape *all* the b
 - Would our correlation between rank and rating change as we collected more data? 
 
 
-What should I investigate further about this dataset? Did I miss something in my EDA? Let me know in the comments!
+
+## Streamlit App
+
+### Purpose
+
+The purpose of my Streamlit app is to provide further exploration into my books dataset. The users will be able to interact with the dataset to generate unique plots and summary statistics, like entering a rank and returning the book's information for that rank. Users will be able to further explore book ratings, compare book formats, and find the top authors.
+
+You can find my Streamlit app [here](). Check it out!
+
+
+What should I investigate further about this dataset? Did I miss something in my EDA? What else should I include in my Streamlit [app]()? Let me know in the comments!
 
 Thanks for reading!
 
