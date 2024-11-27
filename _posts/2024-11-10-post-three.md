@@ -101,9 +101,11 @@ Let's investigate:
 
 **Insights**
 
-The most common wait time is 6 months (27.0 weeks). But! We need to note that for the wait time, once it reaches 6 months, it stops counting any higher. So, in reality, a book's wait time could be much longer, but it will be recorded on the website as '6 months'. This could very likely be skewing the value counts. However, this *does* tell us that a vast majority of the books have a wait time of *at least* 6 months.
+The most common wait time is 6 months (27.0 weeks). But! We need to note that once the wait time reaches 6 months, it stops counting any higher. So, in reality, a book's wait time could be much longer, but it will be recorded on the website as '6 months'. 
 
-The second most common wait time is no wait time at all. Following those two extremes, the next most common wait times are 2 weeks and 3 weeks. This makes sense since the most common lengths a book goes on loan to a patron is 2 weeks and 3 weeks.
+This could very likely be skewing the value counts. However, this *does* tell us that a vast majority of the books have a wait time of *at least* 6 months.
+
+The second most common wait time is no wait time at all. Following those two extremes, the next most common wait times are 2 weeks and 3 weeks. This is consistent with the library's program since the most common lengths a book goes on loan to a patron is 2 weeks and 3 weeks.
 
 
 #### Wait Time as Copies Increase
@@ -114,7 +116,7 @@ One thing that seems to make intuitive sense is that the wait time decreases as 
     <img src="{{site.url}}/{{site.baseurl}}/assets/img/wait-copies.png" alt=""> 
 </figure>
 
-While there is not an obvious linear trend, we can see on the plot that the wait time seems to drop off around 25 copies. Any book that has more than 25 copies has a wait time of about 6 weeks or less.
+While there is not an obvious linear trend, we can see on the plot that the wait time starts to drop off around 20 copies. Any book that has more than 25 copies has a wait time of about 6 weeks or less.
 
 **Correlation: -0.332**
 
@@ -123,20 +125,13 @@ The correlation between wait weeks and copies is relatively weak, but still tell
 
 #### Follow-up: Rank vs. Copies
 
-This question got me thinking about which books have a larger number of copies. To help manage long wait times, does the library purchase a higher number of copies for the more popular books? In other words, is rank correlated to the number of copies?
+Which books have a larger number of copies? To help manage long wait times, does the library purchase a higher number of copies for the more popular books? In other words, is rank correlated to the number of copies?
 
 **Correlation: -0.222**
 
-Just like before, the correlation isn't all that strong, but it does tell us about the relationship between rank and copies. As rank decreases (the book is more popular), on average the number of copies increases... *slightly*.
+Just like before, the correlation isn't all that strong, but it does tell us about the relationship between rank and copies. As rank decreases (book's popularity increases), on average the number of copies increases... *slightly*.
 
-This may be due to the library trying to manage long wait times for popular books. However, they are restricted by copyrights and other licensing issues. They may not be allowed to have over a certain number of copies for a particular book. 
-
-### Going Further
-
-To investigate this data further, I would love to go back and scrape *all* the book data from the websites. I only scraped the top 240 books of each format. 
-- Would rating differences diverge or converge with more books?
-- Would our correlation between rank and rating change as we collected more data? 
-
+This may be due to the library trying to manage long wait times for popular books. As a book increases in popularity, it seems that the library seeks to obtain more copies for their patrons.
 
 
 ## Streamlit App
@@ -147,6 +142,7 @@ The purpose of my Streamlit app is to provide further exploration into my books 
 
 You can find my Streamlit app [here](). Check it out!
 
+------------------------------------------
 
 What should I investigate further about this dataset? Did I miss something in my EDA? What else should I include in my Streamlit [app]()? Let me know in the comments!
 
